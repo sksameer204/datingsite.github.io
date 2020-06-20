@@ -7,7 +7,8 @@ font-family: monospace;
     grid-row: 1fr;
 }
 .section1{  
-    height: 100vh;    
+    height: 100%;    
+    max-height: 100%;
     background-color: #fff;
 }
 .section1 h1{
@@ -62,7 +63,9 @@ font-family: monospace;
 }
 /****/
 .section2{
-    height: 100vh;    
+    height: 100%;    
+    max-height: 100%;
+
 }
 #photo{
     width: 100%;
@@ -70,7 +73,8 @@ font-family: monospace;
 }
 /*****/
 .section3{    
-    height: 100vh;    
+    height: 100%;  
+    max-height: 100%;  
     background-color: rgb(248, 246, 245);
     display: grid;
     grid-template-columns: 1fr;
